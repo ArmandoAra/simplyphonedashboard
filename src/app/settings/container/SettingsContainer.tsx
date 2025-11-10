@@ -10,7 +10,7 @@ import ProfileData from "../components/ProfileData";
 
 export default function SettingsContainer() {
     return (
-        <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex justify-center py-10 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen  flex justify-center py-10 px-4 sm:px-6 lg:px-8 ">
             <div className="w-full max-w-4xl">
                 <I18nClientProvider>
                     <SettingsSynchronizer />
@@ -22,7 +22,6 @@ export default function SettingsContainer() {
                         <ThemeSelector />
                         <LanguageSelector />
                     </div>
-
                     <DeleteAccount />
                 </I18nClientProvider>
             </div>

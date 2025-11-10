@@ -1,7 +1,5 @@
 {
     "welcome": "Simply Phone Dashboard",
-    "register": "Registrar",
-    "login": "Entrar",
     "auth": {
         "register": {
             "title": "Crea tu Cuenta",
@@ -71,5 +69,16 @@
             "confirmation_dialog": "¿Estás seguro de que quieres eliminar tu cuenta? Esta acción es irreversible.",
             "deleted_success": "Cuenta eliminada con éxito. Redirigiendo..."
         }
+    },
+    "aside": {
+        "users": "Usuarios"
+    },
+    "buttons": {
+        "register": "Registrar",
+        "login": "Entrar",
+        "save": "Guardar Cambios",
+        "cancel": "Cancelar",
+        "delete": "Eliminar",
+        "settings": "Configuración"
     }
 }

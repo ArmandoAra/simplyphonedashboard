@@ -3,7 +3,11 @@
  * * NOTA: Esta estructura está diseñada para que puedas acceder a los colores
  * directamente en tu componente basado en el tema activo (e.g., colors[theme].background).
  */
-export const AppColors = {
+
+// const CurrentThemeColors = AppColors[theme];
+// const { theme } = useSettingsStore();
+
+export const AppColors: Record<string, Record<string, string>> = {
   // === TEMA CLARO (LIGHT) ===
   light: {
     // Fondo Principal: Azul Cielo Muy Claro
