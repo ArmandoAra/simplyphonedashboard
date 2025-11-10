@@ -1,0 +1,75 @@
+{
+    "welcome": "Simply Phone Dashboard",
+    "register": "Register",
+    "login": "Login",
+    "auth": {
+        "register": {
+            "title": "Create Your Account",
+            "name": "Name",
+            "name_placeholder": "John Doe",
+            "email": "Email",
+            "email_placeholder": "example@email.com",
+            "password": "Password",
+            "password_placeholder": "********",
+            "confirmPassword": "Confirm Password",
+            "create_button": "Create Account",
+            "login_link_text": "Already have an account?",
+            "login_link": "Log In",
+            "password_mismatch_error": "Passwords do not match.",
+            "name_required_error": "The name is required",
+            "email_required_error": "The email is required",
+            "email_invalid_error": "Invalid email format",
+            "password_required_error": "The password is required",
+            "min_length_error": "Minimum 6 characters",
+            "confirmation_required_error": "Confirmation is required",
+            "creating_account": "Creating Account..."
+        },
+        "login": {
+            "title": "Log In",
+            "email": "Email",
+            "email_placeholder": "example@email.com",
+            "password": "Password",
+            "password_placeholder": "********",
+            "login_button": "Log In",
+            "login_pending": "Logging In...",
+            "separator_or": "OR",
+            "create_account_link": "Create new account"
+        }
+    },
+    "settings": {
+        "title": "Account Settings",
+        "status": {
+            "success_message": "Successfully updated.",
+            "error_message": "Error processing the request. Please try again."
+        },
+        "appearance": {
+            "title": "Appearance",
+            "dark_mode": "Dark Mode",
+            "language_select_label": "Select language",
+            "language": "Language",
+            "language_es": "Spanish",
+            "language_en": "English",
+            "language_pt": "Portuguese",
+            "theme_toggle_label_dark": "Switch to dark mode",
+            "theme_toggle_label_light": "Switch to light mode"
+        },
+        "profile": {
+            "title": "Profile Information",
+            "change_photo": "Change Photo",
+            "username": "Username",
+            "save_button": "Save",
+            "status_photo_ready": "Profile picture ready for upload.",
+            "status_photo_uploading": "Uploading profile picture...",
+            "status_photo_success": "Profile picture updated successfully.",
+            "status_name_updated": "Username updated successfully."
+        },
+        "delete_account": {
+            "title": "Delete Account",
+            "warning": "Warning: Deleting your account is permanent and all your data will be lost.",
+            "button": "Delete Account",
+            "deleting": "Deleting...",
+            "confirmation_dialog": "Are you sure you want to delete your account? This action is irreversible.",
+            "deleted_success": "Account successfully deleted. Redirecting..."
+        }
+    }
+}

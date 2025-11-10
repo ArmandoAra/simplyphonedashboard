@@ -1,0 +1,75 @@
+{
+    "welcome": "Simply Phone Dashboard",
+    "register": "Registrar",
+    "login": "Entrar",
+    "auth": {
+        "register": {
+            "title": "Crea tu Cuenta",
+            "name": "Nombre",
+            "name_placeholder": "John Doe",
+            "email": "Email",
+            "email_placeholder": "example@correo.com",
+            "password": "Contraseña",
+            "password_placeholder": "********",
+            "confirmPassword": "Confirmar Contraseña",
+            "create_button": "Crear Cuenta",
+            "login_link_text": "¿Ya tienes una cuenta?",
+            "login_link": "Inicia Sesión",
+            "password_mismatch_error": "Las contraseñas no coinciden.",
+            "name_required_error": "El nombre es obligatorio",
+            "email_required_error": "El email es obligatorio",
+            "email_invalid_error": "Formato de email inválido",
+            "password_required_error": "La contraseña es obligatoria",
+            "min_length_error": "Mínimo 6 caracteres",
+            "confirmation_required_error": "La confirmación es obligatoria",
+            "creating_account": "Creando Cuenta..."
+        },
+        "login": {
+            "title": "Iniciar Sesión",
+            "email": "Email",
+            "email_placeholder": "example@correo.com",
+            "password": "Contraseña",
+            "password_placeholder": "********",
+            "login_button": "Iniciar Sesión",
+            "login_pending": "Iniciando Sesión...",
+            "separator_or": "O",
+            "create_account_link": "Crear nueva cuenta"
+        }
+    },
+    "settings": {
+        "title": "Configuración de la Cuenta",
+        "status": {
+            "success_message": "Actualizado con éxito.",
+            "error_message": "Error al procesar la solicitud. Inténtalo de nuevo."
+        },
+        "appearance": {
+            "title": "Apariencia",
+            "dark_mode": "Modo Oscuro",
+            "language_select_label": "Seleccionar idioma",
+            "language": "Idioma",
+            "language_es": "Español",
+            "language_en": "English",
+            "language_pt": "Português",
+            "theme_toggle_label_dark": "Cambiar a modo oscuro",
+            "theme_toggle_label_light": "Cambiar a modo claro"
+        },
+        "profile": {
+            "title": "Información de Perfil",
+            "change_photo": "Cambiar Foto",
+            "username": "Nombre de Usuario",
+            "save_button": "Guardar",
+            "status_photo_ready": "Foto de perfil lista para ser subida.",
+            "status_photo_uploading": "Subiendo foto de perfil...",
+            "status_photo_success": "Foto de perfil actualizada con éxito.",
+            "status_name_updated": "Nombre de usuario actualizado con éxito."
+        },
+        "delete_account": {
+            "title": "Eliminar Cuenta",
+            "warning": "Advertencia: Eliminar tu cuenta es permanente y se perderán todos tus datos.",
+            "button": "Eliminar Cuenta",
+            "deleting": "Eliminando...",
+            "confirmation_dialog": "¿Estás seguro de que quieres eliminar tu cuenta? Esta acción es irreversible.",
+            "deleted_success": "Cuenta eliminada con éxito. Redirigiendo..."
+        }
+    }
+}
